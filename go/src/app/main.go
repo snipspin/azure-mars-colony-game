@@ -26,7 +26,7 @@ func main() {
 	conn, err := db.Open()
 
 	if err != nil {
-		panic("failed to connect database")
+		//panic("failed to connect database")
 	}
 	defer conn.Close()
 
